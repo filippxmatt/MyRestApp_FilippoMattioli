@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#E0E0E0"> <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="48dp" android:fontFamily="sans-serif-medium"
+    android:text="Benvenuto nell'app\n\nMenu di selezione:"
+    android:textSize="30sp"
+    android:textColor="#212121"
+    android:textStyle="bold"
+    android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnSearchSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ricerca Canzoni"
+        android:textSize="18sp"
+        android:backgroundTint="#7C4DFF" android:textColor="@android:color/white"
+        android:paddingVertical="14dp" /> <Button
+        android:id="@+id/btnStreaming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:text="Apri Apple Music"
+        android:textSize="18sp"
+        android:backgroundTint="#7C4DFF"
+        android:textColor="@android:color/white"
+        android:paddingVertical="14dp" />
+
+    <Button
+        android:id="@+id/btnArchive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:text="Libreria"
+        android:textSize="18sp"
+        android:backgroundTint="#7C4DFF"
+        android:textColor="@android:color/white"
+        android:paddingVertical="14dp" />
+
+</LinearLayout>

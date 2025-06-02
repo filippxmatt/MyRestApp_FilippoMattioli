@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/main"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:padding="24dp"
+       android:background="#E0E0E0">
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="32dp"
+       android:fontFamily="sans-serif-medium"
+       android:text="Cerca:"
+       android:textSize="28sp"
+       android:textColor="#212121"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:layout_gravity="center_horizontal"/>
+    <EditText
+       android:id="@+id/editTextSearch"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Cerca una canzone..."
+       android:imeOptions="actionSearch"
+       android:inputType="text"
+       android:padding="12dp"
+       android:background="@drawable/rounded_edittext_background" android:singleLine="true"
+       android:drawableEnd="@android:drawable/ic_menu_search" android:drawableTint="#7C4DFF"/> <ListView
+       android:id="@+id/listViewSongs"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="20dp"
+       android:divider="@android:color/transparent" android:dividerHeight="8dp"/>
+</LinearLayout>
