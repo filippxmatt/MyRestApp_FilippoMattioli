@@ -64,7 +64,7 @@ Per testare l'applicazione, puoi utilizzare le seguenti credenziali predefinite:
 
 ## API Coinvolte
 
-La funzionalità di ricerca canzoni fa uso dell'**API di iTunes**, che non richiede una chiave API specifica per le ricerche pubbliche.
+La funzionalità di ricerca canzoni fa uso dell'API di iTunes, che non richiede una chiave API specifica per le ricerche pubbliche.
 
 ---
 
