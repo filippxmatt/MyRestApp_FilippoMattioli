@@ -1,4 +1,4 @@
-# MyRestApp - La Tua App Musicale
+# MyRestApp
 
 <p style="text-align: center;">Filippo Mattioli - 5AINF</p>
 
